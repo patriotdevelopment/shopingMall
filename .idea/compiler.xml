@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="youmeimallauth" />
+        <module name="youmeimallcommon" />
+        <module name="youmeimalleureka" />
+        <module name="youmeimallgoods" />
+        <module name="youmeimallgoodsapi" />
+        <module name="youmeimallmember" />
+        <module name="youmeimallmemberapi" />
+        <module name="youmeimallmessage" />
+        <module name="youmeimallmessageapi" />
+        <module name="youmeimallorder" />
+        <module name="youmeimallorderapi" />
+        <module name="youmeimallpay" />
+        <module name="youmeimallpayapi" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
