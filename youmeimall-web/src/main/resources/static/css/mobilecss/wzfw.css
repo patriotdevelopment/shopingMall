@@ -1,0 +1,177 @@
+
+.bread-nav{
+	background: #F8F8F8;
+	width: 100%;
+	height: .7rem;
+	font-size: .2rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	padding: 0 .2rem;
+}
+.bread-nav a{
+	color: #666;
+}
+.index-section1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section1 .sec-sub{
+	margin-bottom: .3rem;
+}
+.index-section1-mes{
+	width: 7.1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.index-section1-mes .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 25%;
+}
+.index-section1-mes .item img{
+	width: 1rem;
+	height: .65rem;
+}
+.index-section1-mes .item p:nth-of-type(1){
+	font-size: .2rem;
+	color: #333;
+	margin-top: .05rem;
+	margin-bottom: .1rem;
+}
+.index-section1-mes .item p:nth-of-type(2){
+	font-size: .14rem;
+	color: #333;
+	line-height: .22rem;
+	margin-top: .05rem;
+	margin-bottom: .4rem;
+}
+
+.index-section2{
+	width: 100%;
+	height: 2.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("../../img/mobileimages/wzfw/image_行业架构.png") no-repeat;
+	background-size: 100% 100%;
+}
+.index-section2 .tit{
+	color: white;
+}
+.index-section2 .des{
+	color: white;
+	line-height:.38rem;
+	font-size: .18rem;
+	width: 7rem;
+	padding: 0 .05rem;
+	text-align: center;
+}
+
+.index-section3{
+	width: 100%;
+	height: 4.1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("../../img/mobileimages/wzfw/image_定制.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.index-section4{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section4-mes{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-top: .25rem;
+	padding-bottom: .3rem;
+}
+.index-section4-mes .swiper-slide{
+	width: 2.26rem;
+	height: 3.7rem;
+}
+.index-section4-mes .swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.index-section4-mes .swiper-slide div{
+	width: 100%;
+	height: .85rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+	font-size: .2rem;
+	text-align: center;
+	padding-top: .15rem;
+}
+.index-section4-mes .swiper-slide div p:nth-of-type(2){
+	font-size: .14rem;
+	margin-top: 0rem;
+}
+
+.index-section5{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("../../img/mobileimages/wzfw/212798889577501322.png") no-repeat;
+	background-size: 100% 100%;
+	height: 7.25rem;
+}
+.index-section5 .sec-title{
+	color: white;
+	font-size: .48rem;
+}
+.index-section5 .sec-sub{
+	color: white;
+}
+.index-section5-tips{
+	width: 5.2rem;
+	height: 2.05rem;
+	background: #FFEA00;
+	margin-top: .15rem;
+	font-size: .27rem;
+	color: #333;
+	font-weight: 600;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: .1rem .25rem;
+}
+.index-section5-tips p:nth-of-type(1){
+	color: #E74434;
+}
+.index-section5-tips p span{
+	font-size: .18rem;
+}
+.index-section5-butdiv{
+	width: 6.35rem;
+	height: 3rem;
+	background:rgba(244,244,244,0.4);
+	margin-top: .35rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: .15rem 0;
+}
+.index-section5-butdiv input{
+	width: 5.2rem;
+	height: .5rem;
+	padding-left: .15rem;
+	border: none;
+	font-size: .22rem;
+}
+.index-section5-butdiv input[type="submit"]{
+	color: white;
+	background: #E74434;
+}

@@ -1,0 +1,130 @@
+
+.bread-nav{
+	background: #F8F8F8;
+	width: 100%;
+	height: .7rem;
+	font-size: .2rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	padding: 0 .2rem;
+}
+.bread-nav a{
+	color: #666;
+}
+
+.index-section1{
+	width: 100%;
+	height: 9.6rem;
+	padding-top: .3rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section1 .index-section1-mes{
+	width: 6.5rem;
+	height: 7.8rem;
+	margin-top: .2rem;
+	position: relative;
+	font-size: .24rem;
+	color: #666;
+	padding: .3rem .3rem;
+	line-height: .42rem;
+}
+.index-section1-mes img:nth-of-type(1){
+	position: absolute;
+	left: 0;
+	top:0;
+	width: .45rem;
+
+}
+.index-section1-mes img:nth-of-type(2){
+	position: absolute;
+	right:0;
+	bottom:0;
+	width: .45rem;
+}
+.index-section1-mes img:nth-of-type(3){
+	width: 6.5rem;
+	position: relative;
+	left: -.3rem;
+	height: 3.15rem;
+	margin: .05rem 0;
+}
+.index-section2{
+	width: 100%;
+	height: 4.15rem;
+	padding-top: .3rem;
+	margin-top: .12rem;
+}
+.index-section2-mes{
+	width: 6.5rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: .4rem;
+}
+.index-section2-mes .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33.2%;
+}
+.index-section2-mes .item img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.index-section2-mes .item p:nth-of-type(1){
+	color: #2DC3FF;
+	font-size: .28rem;
+	margin-top: .2rem;
+	text-align: center;
+	width: 100%;
+
+}
+.index-section2-mes .item p:nth-of-type(2){
+	color: #666;
+	font-size: .18rem;
+	margin-top: .1rem;
+	text-align: center;
+	width: 100%;
+}
+.index-section3{
+	width: 100%;
+	height: 4.4rem;
+	padding-top: .3rem;
+	margin-top: .12rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section3 img{
+	width: 6.7rem;
+	height: 2.5rem;
+	height: 
+	margin: 0 auto;
+	margin-top: .2rem;
+}
+.index-section4{
+	width: 100%;
+	height: 5.45rem;
+	padding-top: .3rem;
+	margin-top: .12rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section4 table{
+	width: 6.5rem;
+	font-size: .24rem;
+	color: #666;
+	margin-top: .3rem;
+}
+.index-section4 table td{
+	vertical-align: top;
+	padding-right: .25rem;
+	padding-bottom: .3rem;
+}
+.index-section4 table img{
+	width: .31rem;
+}

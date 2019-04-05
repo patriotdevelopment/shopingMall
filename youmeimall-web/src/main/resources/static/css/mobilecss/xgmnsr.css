@@ -1,0 +1,240 @@
+
+.bread-nav{
+	background: #F8F8F8;
+	width: 100%;
+	height: .7rem;
+	font-size: .2rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	padding: 0 .2rem;
+}
+.bread-nav a{
+	color: #666;
+}
+.index-section1{
+	width: 100%;
+	height: 8.55rem;
+	background: #F5F5F5;
+}
+
+.index-section1 .first-dec{
+	font-size: .22rem;
+	color: #999;
+	line-height:.38rem;
+	width: 6.26rem;
+	margin: 0 auto;
+	margin-bottom: .25rem;
+	text-align: center;
+}
+.index-section1 .sec-div{
+	width: 7.1rem;
+	height: 5.5rem;
+	background: white;
+	margin: 0 auto;
+	padding: 0 .4rem;
+	padding-top: .26rem;
+	font-size: .22rem;
+	color: #999;
+	line-height: .38rem;
+	text-align: left;
+}
+.index-section1 .sec-div p{
+	font-size: .28rem;
+	color: #F26D49;
+	width: 100%;
+	text-align: center;
+	margin-bottom: .15rem;
+}
+.index-section2{
+	width: 100%;
+	height: 5.5rem;
+	margin-top: .12rem;
+	background: url("../../img/mobileimages/csfw/icon7.png") no-repeat;
+	background-size: 100% 100%;
+}
+.index-section2 .tit{
+	font-size: .28rem;
+	color: white;
+}
+.index-section2 table{
+	width: 4.8rem;
+	margin: 0 auto;
+	color: white;
+	font-size: .2rem;
+	
+}
+.index-section2 table td{
+	vertical-align: top;
+	line-height: .28rem;
+	padding-bottom: .12rem;
+}
+
+.index-section2-but{
+	width: 4.5rem;
+	height: .42rem;
+	border-radius:21px;
+	border:1px solid rgba(237,77,26,1);
+	margin: 0 auto;
+	margin-top: .45rem;
+	color: #ED4D1A;
+	font-size: .2rem;
+	line-height: .42rem;
+	padding-left: .25rem;
+}
+.index-section2-but a{
+	display: block;
+	width: 1.5rem;
+	height: 100%;
+	color: white;
+	font-size: .2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #ED4D1A;
+	border:1px solid rgba(255,99,0,1);
+	border-radius:34px;
+	float: right;
+}
+
+.index-section3{
+	width: 100%;
+	height: 6.55rem;
+	margin-top: .12rem;
+	position: relative;
+	padding-top: .3rem;
+}
+.index-section3-title{
+	background: #D9603A;
+	color: white;
+	font-size: .24rem;
+	display: flex;
+	position: relative;
+}
+.index-section3-title .item{
+	width: 50%;
+	height: .55rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.index-section3-title p{
+	width: .9rem;
+	height: .9rem;
+	background:rgba(217,96,58,1);
+	border:2px solid rgba(255,255,255,1);
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -.45rem;
+	top: 50%;
+	margin-top: -.45rem;
+	font-size: .36rem;
+}
+.index-section3 table{
+	width: 7.1rem;
+	margin: 0 auto;
+	font-size: .16rem;
+	color: #393939;
+	margin-top: .7rem;
+}
+.index-section3 table td{
+	line-height: .25rem;
+	padding-bottom: .4rem;
+	text-align: center;
+}
+.index-section3 table td:nth-of-type(1),
+.index-section3 table td:nth-of-type(3){
+	width: 2.7rem
+}
+
+.index-section3 table td:nth-of-type(2){
+	width: 1.7rem;
+	font-size: .18rem;
+	font-weight: 600;
+}
+
+.index-section4{
+	width: 100%;
+	height: 5.9rem;
+	margin-top: .12rem;
+	background: #F5F5F5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section4-mes{
+	width: 5.85rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.index-section4-mes .item{
+	width: 1.75rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #333;
+	font-size: .18rem;
+	margin-bottom: .15rem;
+}
+.index-section4-mes .item img{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin-bottom: .12rem;
+}
+.index-section4 a{
+	width: 5.5rem;
+	height: .55rem;
+	font-size: .32rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(180deg,rgba(64,120,255,1) 0%,rgba(65,122,255,1) 100%);
+	border-radius:28px;
+	background: #4078FF;
+	margin-top: .25rem;
+}
+
+.index-section5{
+	width: 100%;
+	height: 5rem;
+	margin-top: .12rem;
+}
+.index-section5-mes{
+	width: 7.15rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+	margin-top: .4rem;
+}
+.index-section5-mes .item{
+	width: 2.25rem;
+	height: 1.6rem;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: .3rem;
+}
+.index-section5-mes .item img{
+	width: 100%;
+	height: 100%;
+}
+.index-section5-mes .item .tips{
+	width: 100%;
+	height: .35rem;
+	background:rgba(65,76,86,0.6);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: .18rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

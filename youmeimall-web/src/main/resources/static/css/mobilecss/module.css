@@ -1,0 +1,269 @@
+/*module.css*/
+
+/*reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: #F8F8F8;
+	min-height:100%;
+}
+body{
+	min-height: 100%;
+	visibility:hidden;
+}
+a{
+	text-decoration: none;
+}
+a:hover,a:visited{
+	text-decoration: none;
+}
+p{
+	margin: 0;
+}
+input[type="text"]:focus{
+	border-color: #66afe9 !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+/*reset*/
+
+.qyzj-container{
+	max-width: 750px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	background: #F8F8F8;
+}
+.topNav{
+	height: 1.2rem;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 .4rem;
+}
+.topNav img{
+	width: 3rem;
+	height: .55rem;
+}
+.topNav .topNav-but{
+	width: .55rem;
+	height: .6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: .08rem 0;
+}
+.topNav .topNav-but span{
+	display: inline-block;
+	height: 3px;
+	width: 90%;
+}
+.topNav .topNav-but span:nth-of-type(1){
+	background: #03BB0D;
+}
+.topNav .topNav-but span:nth-of-type(2){
+	background: #42CC49;
+}
+.topNav .topNav-but span:nth-of-type(3){
+	background: #80DC85;
+}
+
+/*nav灞曞紑鍚�*/
+.topNav-show-div{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	display: none;
+	background: #F8F8F8;
+	overflow: scroll;
+}
+.topNav-show{
+	width: 100%;
+}
+.topNav-show .topNav-but{
+	font-size: .55rem;
+}
+.topNav-show-mes{
+	margin-top: .12rem;
+}
+.topNav-show-mes  a{
+	width: 100%;
+	height: .85rem;
+	background: white;
+	box-shadow:0px 1px 2px 0px rgba(186,186,186,0.8);
+	font-size: .3rem;
+	color: #333;
+	line-height: .85rem;
+	display: block;
+	padding: 0 .4rem;
+	transform:rotate(0deg);
+}
+.topNav-show-mes > a img{
+	float: right;
+	width: .35rem;
+	height: .2rem;
+	margin-top: .34rem;
+}
+.topNav-show-mes div{
+	display: none;
+}
+.topNav-show-mes div a{
+	padding: 0 .7rem;
+	color: #666;
+}
+
+/*nav灞曞紑鍚�*/
+
+/*banner*/
+.index-banner{
+	width: 100%;
+	overflow: hidden;
+}
+#myCarousel{
+	width: 100%;
+	height: 3.05rem;
+}
+.carousel-inner .item img{
+	width: 100%;
+	height: 3.05rem;
+}
+ol.carousel-indicators{
+	bottom: 0;
+}
+ol.carousel-indicators .active{
+	width: 5px;
+	height: 5px;
+	border:1px solid white;
+}
+.carousel-indicators li{
+	width: 5px;
+	height: 5px;
+}
+/*banner*/
+
+/*index-section鍏辩敤鏍囬鏍峰紡*/
+.index-section{
+	background: white;
+	padding-top: .3rem;
+}
+	/*鏈変袱涓富娆℃爣棰樼殑*/
+.index-section .sec-title{
+	font-size: .32rem;
+	color: #333;
+	text-align: center;
+	width: 100%;
+}
+.index-section .sec-sub{
+	font-size: .22rem;
+	color: #999;
+	text-align: center;
+	width: 5.5rem;
+	margin: 0 auto;
+	margin-top: .06rem;
+}
+	/*鏈変袱涓富娆℃爣棰樼殑*/
+	/*鍙湁涓�涓爣棰樼殑*/
+.index-section .tit{
+	font-size: .32rem;
+	color: #333;
+	width: 100%;
+	text-align: center;
+	margin-bottom: .3rem;
+}
+	/*鍙湁涓�涓爣棰樼殑*/
+/*index-section鍏辩敤鏍囬鏍峰紡*/
+
+/*搴曢儴*/
+.footer{
+	height: 1.2rem;
+	width: 100%;
+	margin-bottom:.65rem;
+}
+
+.footer div:nth-of-type(1){
+	width: 100%;
+	height: .7rem;
+	background: #F8F8F8;
+	color: #868585;
+	font-size: .24rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer div:nth-of-type(1) a{
+	color: #868585;
+	margin:0 .15rem;
+}
+.footer div:nth-of-type(2){
+	width: 100%;
+	height: .5rem;
+	background: #E7E7E7;
+	color: #ADADAD;
+	font-size: .18rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer div:nth-of-type(2) span{
+	color: #7C7A7A;
+	margin-left: .3rem;
+}
+/*搴曢儴*/
+
+/*璁剧疆input textarea棰滆壊*/
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #999; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #999; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #999; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #999; 
+} 
+
+
+.index-bottom-butgroup{
+	width: 100%;
+	height: .9rem;
+	display: flex;
+	font-size: .3rem;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index:1000;
+}
+
+.index-bottom-butgroup img{
+	width: .32rem;
+	height: .32rem;
+	margin-right: .1rem;
+}
+.index-bottom-butgroup a:nth-of-type(1){
+	background: #FF883C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	color: white;
+}
+.index-bottom-butgroup a:nth-of-type(2){
+	background: #229FDB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	color: white;
+}

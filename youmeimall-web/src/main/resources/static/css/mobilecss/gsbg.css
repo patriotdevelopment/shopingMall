@@ -1,0 +1,238 @@
+
+.bread-nav{
+	background: #F8F8F8;
+	width: 100%;
+	height: .7rem;
+	font-size: .2rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	padding: 0 .2rem;
+}
+.bread-nav a{
+	color: #666;
+}
+.index-section1{
+	width: 100%;
+	height: 9.4rem;
+}
+
+.index-section1-mes{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.index-section1-mes .item{
+	/*width: 2.48rem;*/
+	width: 33%;
+	height: 2.25rem;
+	background: #FFCB66;
+	margin-bottom: .04rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+.index-section1-mes .item:nth-of-type(2){
+	background: #77E9D7;
+}
+.index-section1-mes .item:nth-of-type(3){
+	background: #BBABF0;
+}
+.index-section1-mes .item:nth-of-type(4){
+	background: #F7A2CA;
+}
+.index-section1-mes .item:nth-of-type(5){
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.index-section1-mes .item:nth-of-type(6){
+	background: #68E1EC;
+}
+.index-section1-mes .item:nth-of-type(7){
+	background: #A3C1F6;
+}
+.index-section1-mes .item:nth-of-type(8){
+	background: #66E0FF;
+}
+.index-section1-mes .item:nth-of-type(9){
+	background: #FFA066;
+}
+.index-section1-mes .item img{
+	width: .72rem;
+	height: .72rem;
+	margin-top: .25rem;
+}
+.index-section1-mes .item:nth-of-type(5) img{
+	width: 1.1rem;
+	height: .77rem;
+}
+.index-section1-mes .item p:nth-of-type(1){
+	font-size: .26rem;
+	width: 100%;
+	text-align: center;
+	margin-top: .1rem;
+}
+.index-section1-mes .item p:nth-of-type(2){
+	font-size: .18rem;
+	width: 100%;
+	text-align: center;
+	margin-top: .10rem;
+	line-height: .28rem;
+}
+.index-section1-but{
+	width: 5.95rem;
+	height: .7rem;
+	border:1px solid rgba(255,99,0,1);
+	border-radius:34px;
+	background: white;
+	margin: 0 auto;
+	margin-top: .45rem;
+	color: #FF6300;
+	font-size: .36rem;
+	line-height: .7rem;
+}
+.index-section1-but a{
+	display: block;
+	width: 2.25rem;
+	height: 100%;
+	color: white;
+	font-size: .24rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FF6300;
+	border:1px solid rgba(255,99,0,1);
+	border-radius:34px;
+	float: right;
+}
+.index-section1-but img{
+	width: .38rem;
+	height: .42rem;
+	margin-right: .12rem;
+	margin-left: .35rem;
+}
+
+.index-section2{
+	width: 100%;
+	height: 4.6rem;
+	margin-top: .12rem;
+}
+.index-section2-mes{
+	width: 7.1rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.index-section2-mes .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section2-mes .item img{
+	width: 1.75rem;
+	height: 1.35rem;
+}
+.index-section2-mes .item p:nth-of-type(1){
+	font-size: .24rem;
+	color: #333;
+	margin-top: .18rem;
+}
+.index-section2-mes .item p:nth-of-type(2){
+	font-size: .18rem;
+	color: #999;
+	margin-top: .06rem;
+	width: 100%;
+	padding: 0 .1rem;
+}
+.index-section3{
+	width: 100%;
+	height: 4.9rem;
+	margin-top: .12rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section3-mes{
+	width: 6.2rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: .05rem;
+}
+.index-section3-mes .item{
+	width: 50%;
+	font-size: .24rem;
+	color: #333;
+	margin-bottom: .4rem;
+}
+.index-section3-mes .item img{
+	width: .4rem;
+	height: .4rem;
+	margin-right: .1rem;
+}
+.index-section3 .tips{
+	font-size: .22rem;
+	color: #999;
+	width: 100%;
+	text-align: center;
+	margin-top: .1rem;
+}
+
+.sec2-but{
+	margin-top: .4rem;
+}
+
+.index-section4{
+	width: 100%;
+	height: 7.2rem;
+	margin-top: .12rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section4-mes{
+	width: 7.05rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.index-section4-mes .item{
+	width: 3.5rem;
+	height: 2.7rem;
+	margin-bottom: .05rem;
+	position: relative;
+}
+.index-section4-mes .item img{
+	width: 100%;
+	height: 100%;
+}
+.index-section4-mes .item div{
+	position: absolute;bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1.45rem;
+	background:rgba(0,0,0,1);
+	opacity:0.4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	padding-top: .06rem;
+	overflow: hidden;
+}
+.index-section4-mes .item div p:nth-of-type(1){
+	font-size: .26rem;
+	margin-bottom: .12rem;
+}
+.index-section4-mes .item div p:nth-of-type(2){
+	font-size: .22rem;
+	border-top: .01rem solid white;
+	padding-top: .1rem;
+	width: 85%;
+	text-align: center;
+	line-height: .38rem;
+}

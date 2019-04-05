@@ -1,0 +1,155 @@
+
+.bread-nav{
+	background: #F8F8F8;
+	width: 100%;
+	height: .7rem;
+	font-size: .2rem;
+	color: #666;
+	display: flex;
+	align-items: center;
+	padding: 0 .2rem;
+}
+.bread-nav a{
+	color: #666;
+}
+.index-section1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section1-mes{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: .1rem;
+}
+.index-section1-mes .item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33.3%;
+	text-align: center;
+	padding: .14rem;
+}
+.index-section1-mes .item:nth-of-type(1) img{
+	width: 1.65rem;
+	height: 1rem;
+}
+.index-section1-mes .item:nth-of-type(2) img{
+	width: .85rem;
+	height: 1rem;
+}
+.index-section1-mes .item:nth-of-type(3) img{
+	width: 1.2rem;
+	height: 1rem;
+}
+.index-section1-mes .item p:nth-of-type(1){
+	font-size: .2rem;
+	margin-top: .04rem;
+}
+.index-section1-mes .item p:nth-of-type(2){
+	font-size: .15rem;
+	margin-top: .2rem;
+	line-height: .22rem;
+}
+
+.index-section2{
+	width: 100%;
+	height: 4.8rem;
+	background: url("../../img/mobileimages/qytg/image02.png") no-repeat;
+	background-size: 100% 100%;
+}
+.index-section3{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url("../../img/mobileimages/qytg/imgle_bg02.png") no-repeat;
+	background-size: 100% 100%;
+}
+.index-section3 .tit{
+	color: white;
+}
+.index-section3 .mes-p{
+	font-size: .18rem;
+	line-height: .38rem;
+	color: white;
+	padding: 0 .25rem;
+	text-align: center;
+}
+.index-section4{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.index-section4-mes{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: .3rem;
+	padding-bottom: .45rem;
+}
+.index-section4-mes .item{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.index-section4-mes .item img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.index-section4-mes .item p:nth-of-type(1){
+	font-size: .2rem;
+	color: #333;
+	margin-top: .05rem;
+}
+.index-section4-mes .item p:nth-of-type(2){
+	font-size: .14rem;
+	color: #333;
+	margin-top: .1rem;
+	line-height: .22rem;
+}
+.index-section5{
+	width: 100%;
+	height: 5.1rem;
+	background: url("../../img/mobileimages/qytg/image_bg.png") no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: .4rem;
+}
+.index-section5 .sec-title{
+	color: white;
+	font-size: .44rem;
+}
+.index-section5 .sec-sub{
+	color: white;
+}
+.index-section5-mes{
+	width: 6.35rem;
+	height: 3rem;
+	background:rgba(244,244,244,0.4);
+	margin-top: .35rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: .35rem 0;
+}
+.index-section5-mes input{
+	width: 5.2rem;
+	height: .5rem;
+	padding-left: .15rem;
+	border: none;
+	font-size: .22rem;
+}
+.index-section5-mes input[type="submit"]{
+	color: white;
+	background: #E74434;
+}
