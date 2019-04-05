@@ -11,5 +11,41 @@
 
     <artifactId>youmeimall-web</artifactId>
 
-
+<dependencies>
+    <!-- thymeleaf前台模版 -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>com.patriotdevelopment</groupId>
+        <artifactId>youmeimall-member-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+        <groupId>com.patriotdevelopment</groupId>
+        <artifactId>youmeimall-weixin-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+        <groupId>com.patriotdevelopment</groupId>
+        <artifactId>youmeimall-goods-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+        <groupId>com.patriotdevelopment</groupId>
+        <artifactId>youmeimall-order-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+        <groupId>com.patriotdevelopment</groupId>
+        <artifactId>youmeimall-pay-api</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <!-- 集成Feign客户端 -->
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-feign</artifactId>
+    </dependency>
+</dependencies>
 </project>

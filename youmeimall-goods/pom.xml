@@ -11,5 +11,11 @@
 
     <artifactId>youmeimall-goods</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-goods-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

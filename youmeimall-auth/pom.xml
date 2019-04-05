@@ -10,6 +10,34 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>youmeimall-auth</artifactId>
+    <dependencies>
+        <!-- 集成Common包 -->
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-member-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
+        <!-- 集成Common包 -->
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 集成Eureka客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <!-- 认证需要的Jar包 -->
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-jwt</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

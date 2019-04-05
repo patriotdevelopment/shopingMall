@@ -19,6 +19,9 @@
         <module name="youmeimallorderapi" />
         <module name="youmeimallpay" />
         <module name="youmeimallpayapi" />
+        <module name="youmeimallweb" />
+        <module name="youmeimallweixin" />
+        <module name="youmeimallweixinapi" />
       </profile>
     </annotationProcessing>
   </component>

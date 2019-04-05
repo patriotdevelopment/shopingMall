@@ -11,5 +11,33 @@
 
     <artifactId>youmeimall-pay</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-pay-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-goods-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-weixin-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.patriotdevelopment</groupId>
+            <artifactId>youmeimall-order-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- 集成Feign客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+    </dependencies>
 </project>
