@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>欢迎页</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+    	div {
+    		display: block;
+    	}
+    	h4 {
+    		display: inline-block;
+    		float: left;
+    		width: 200px;
+    	}
+    	a:HOVER {
+    		color: #ddd;
+    	}
+    	a{
+    		text-decoration: none;
+    	}
+    	.mainBox {
+    		clear: both;
+    		margin: 0px;
+    		padding: 10px 0;
+    		background-color: #e8f2ff;
+    	}
+    	.main_cen {
+    		width: 100%;
+    		height: 110px;
+    		padding: 15px;
+    		line-height: 100px;
+    		background-color: #fff;
+			display:flex;
+            justify-content:center;
+            align-items:center;
+    	}
+    	.cen_bg{
+    		background-color: #e8f2ff;
+    	}
+    	.main_a_d{
+    		height: 100%;
+    		width: 200px;
+    		margin: 0px 20px;
+    		border-radius: 8px;
+    		line-height: 100px;
+			display: inline-block;
+			cursor: pointer;
+			box-shadow: 1px 1px 2px #aaaaaa;
+    	}
+    	.main_a_d:HOVER{
+    		box-shadow:0px 0px 8px #1483C5;
+    	}
+    	.main_a_item{
+    		height: 100%;
+    		width: 50%;
+    		text-align: center;
+    		line-height: 100%;
+			display: inline-block;
+			float: left;color: #fff;
+    	}
+		.item_center{
+			display:flex;
+            justify-content:center;
+            align-items:center;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+		}
+    	.item_left{
+    		height: 50px;
+    		width: 50px;
+    		border-radius: 25px;
+    		border: solid #fff 2px;
+    		text-align: center;
+    		line-height: 50px;
+    		font-size: 20px;
+			margin: 0px auto;
+			
+    	}
+    	.item_right{
+    		text-align: center;
+    		border-bottom-right-radius: 8px;
+    		border-top-right-radius: 8px;
+    	}
+    	.item_right>div{
+    		height: auto;
+			width: 100%;
+			margin-top: 10px;
+			line-height: 40px;
+			font-size: 30px;
+    	}
+		.item_right>span{
+			width: 100%;
+			display: black;
+			margin-top: 20px;
+			text-align: center;
+			line-height: 20px;
+			font-size: 14px;
+		}
+    	
+    	.item_warning{
+    		background-color: #F7CB48;/*E0BC4B DBC634 #fff100; */
+    	}
+		.item_warning_opt{
+    		background-color: #F7CB48;
+			opacity: 0.75;
+    	}
+    	.item_orange{
+    		background-color: #f39800;
+    	}
+		.item_orange_opt{
+    		background-color: #f39800;
+			opacity: 0.6;
+    	}
+    	.item_red{
+    		background-color: #eb6100;
+    	}
+		.item_red_opt{
+    		background-color: #eb6100;
+			opacity: 0.5;
+    	}
+    </style>
+</head>
+<body>
+<div class="panel panel-default">
+   <div class="mainBox">
+   <!-- 还款提醒  -->
+	<div class="main_cen">
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="monred/bas?id=4" onclick="return false;">
+				<div class="main_a_item item_center item_warning">
+					<div class="item_left">还款</div>
+				</div>
+				<div class="main_a_item item_right item_warning_opt">
+					<div id="main_7"></div><span>还款到期前7天</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="monred/bas?id=5" onclick="return false;">
+				<div class="main_a_item item_center item_orange">
+					<div class="item_left">还款</div>
+				</div>
+				<div class="main_a_item item_right item_orange_opt">
+					<div id="main_11"></div><span>今日到期</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="monred/bas?id=6" onclick="return false;">
+				<div class="main_a_item item_center item_red">
+					<div class="item_left">还款</div>
+				</div>
+				<div class="main_a_item item_right item_red_opt">
+					<div id="main_12"></div><span>还款-已逾期</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<!-- 年审提醒 -->
+	<div class="main_cen cen_bg">
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="/vehicle/bas?id=4" onclick="return false;">
+				<div class="main_a_item item_center item_warning">
+					<div class="item_left">年审</div>
+				</div>
+				<div class="main_a_item item_right item_warning_opt">
+					<div id="main_13"></div><span>年审到期前30天</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d item_center" style="border: solid 2px #1483C5;">
+			<span style="color: #1483C5;font-size: 20px;">预警信息中心</span>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="/vehicle/bas?id=5" onclick="return false;">
+				<div class="main_a_item item_center item_red">
+					<div class="item_left">年审</div>
+				</div>
+				<div class="main_a_item item_right item_red_opt">
+					<div id="main_15"></div><span>年审-已逾期</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<!-- 保险 -->
+	<div class="main_cen">
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="vehicle/bas?id=1" onclick="return false;">
+				<div class="main_a_item item_center item_warning">
+					<div class="item_left">保险</div>
+				</div>
+				<div class="main_a_item item_right item_warning_opt">
+					<div id="main_1"></div><span>保险到期前30天</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="vehicle/bas?id=2" onclick="return false;">
+				<div class="main_a_item item_center item_orange">
+					<div class="item_left">保险</div>
+				</div>
+				<div class="main_a_item item_right item_orange_opt">
+					<div id="main_2"></div><span>保险到期前7天</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="vehicle/bas?id=3" onclick="return false;">
+				<div class="main_a_item item_center item_red">
+					<div class="item_left">保险</div>
+				</div>
+				<div class="main_a_item item_right item_red_opt">
+					<div id="main_3"></div><span>保险-已逾期</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<!-- 合同 -->
+	<div class="main_cen cen_bg">
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="overdue/bas/conOverdue?id=1" onclick="return false;">
+				<div class="main_a_item item_center item_warning">
+					<div class="item_left">合同</div>
+				</div>
+				<div class="main_a_item item_right item_warning_opt">
+					<div id="main_4"></div><span>合同到期前30天</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="overdue/bas/conOverdue?id=2" onclick="return false;">
+				<div class="main_a_item item_center item_orange">
+					<div class="item_left">合同</div>
+				</div>
+				<div class="main_a_item item_right item_orange_opt">
+					<div id="main_5"></div><span>合同到期前7天</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="overdue/bas/conOverdue?id=3" onclick="return false;">
+				<div class="main_a_item item_center item_red">
+					<div class="item_left">合同</div>
+				</div>
+				<div class="main_a_item item_right item_red_opt">
+					<div id="main_6"></div><span>合同-已逾期</span>
+				</div>
+			</a>
+		</div>
+	</div>
+	<!-- 档案 -->
+	<div class="main_cen">
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="archives/archives" onclick="return false;">
+				<div class="main_a_item item_center item_warning">
+					<div class="item_left">档案</div>
+				</div>
+				<div class="main_a_item item_right item_warning_opt">
+					<div id="main_8"></div><span>未存档合同</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="archives/archives" onclick="return false;">
+				<div class="main_a_item item_center item_orange">
+					<div class="item_left">档案</div>
+				</div>
+				<div class="main_a_item item_right item_orange_opt">
+					<div id="main_9"></div><span>未存档车辆</span>
+				</div>
+			</a>
+		</div>
+		<div class="main_a_d ">
+			<a class="J_menuItem" href="archives/archives" onclick="return false;">
+				<div class="main_a_item item_center item_red">
+					<div class="item_left">档案</div>
+				</div>
+				<div class="main_a_item item_right item_red_opt">
+					<div id="main_10"></div><span>未存档司机</span>
+				</div>
+			</a>
+		</div>
+	</div>
+   </div>
+</div>
+<script src="/js/jquery.min.js?v=2.1.4"></script>
+<script type="text/javascript">
+$(function(){
+	$.ajax({
+		cache : true,
+		type : "GET",
+		url : "/overdue/bas/overdueNums",
+		async : false,
+		error : function(request) {
+			parent.layer.alert("Connection error");
+		},
+		success : function(data) {
+			if (data.code == 0) {
+				$('#main_1').html(data.veh30);
+				$('#main_2').html(data.veh7);
+				$('#main_3').html(data.veh0);
+				
+				$('#main_4').html(data.con30);
+				$('#main_5').html(data.con7);
+				$('#main_6').html(data.con0);
+				
+				$('#main_8').html(data.archCon);
+				$('#main_9').html(data.archVeh);
+				$('#main_10').html(data.archDri);
+				
+				$('#main_7').html(data.payDay7);
+				$('#main_11').html(data.payDayNow);
+				$('#main_12').html(data.payDayOver);
+				
+				$('#main_13').html(data.exam30);
+				$('#main_15').html(data.exam);
+				
+				
+			} else {
+				//parent.layer.alert("");
+			}
+	
+		}
+	});
+	$(".J_menuItem").each(function (index) {
+        if (!$(this).attr('data-index')) {
+            $(this).attr('data-index', index*100);
+        }
+    });
+});
+//$(".dd", parent.document);
+$('.J_menuItem').on('click', menuItem);
+function menuItem() {
+        // 获取标识数据
+        var dataUrl = $(this).attr('href'),
+            dataIndex = $(this).data('index'),
+            menuName = $.trim($(this).find('span').text()),
+            flag = true;
+        if (dataUrl == undefined || $.trim(dataUrl).length == 0)return false;
+
+        // 选项卡菜单已存在
+        parent.$('.J_menuTab').each(function () {
+            if ($(this).data('id') == dataUrl) {
+                if (!$(this).hasClass('active')) {
+                    $(this).addClass('active').siblings('.J_menuTab').removeClass('active');
+                    parent.scrollToTab(this);
+                    // 显示tab对应的内容区
+                    parent.$('.J_mainContent .J_iframe').each(function () {
+                        if ($(this).data('id') == dataUrl) {
+                            $(this).show().siblings('.J_iframe').hide();
+                            return false;
+                        }
+                    });
+                }
+                flag = false;
+                return false;
+            }
+        });
+        // 选项卡菜单不存在
+        if (flag) {
+            var str = '<a href="javascript:;" class="active J_menuTab" data-id="' + dataUrl + '">' + menuName + ' <i class="fa fa-times-circle"></i></a>';
+            parent.$('.J_menuTab').removeClass('active');
+            // 添加选项卡对应的iframe
+            var str1 = '<iframe class="J_iframe" name="iframe' + dataIndex + '" width="100%" height="100%" src="' + dataUrl + '" frameborder="0" data-id="' + dataUrl + '" seamless></iframe>';
+            parent.$('.J_mainContent').find('iframe.J_iframe').hide().parents('.J_mainContent').append(str1);
+            // 添加选项卡
+            parent.$('.J_menuTabs .page-tabs-content').append(str);
+            parent.scrollToTab(parent.$('.J_menuTab.active'));
+        }
+        return false;
+    }
+
+</script>
+</body>
+</html>
