@@ -18,6 +18,7 @@
         <module>youmeimall-goods-api</module>
         <module>youmeimall-pay-api</module>
         <module>youmeimall-weixin-api</module>
+        <module>youmeimall-web-api</module>
     </modules>
 
     <dependencies>

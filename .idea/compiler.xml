@@ -20,6 +20,7 @@
         <module name="youmeimallpay" />
         <module name="youmeimallpayapi" />
         <module name="youmeimallweb" />
+        <module name="youmeimallwebapi" />
         <module name="youmeimallweixin" />
         <module name="youmeimallweixinapi" />
       </profile>
