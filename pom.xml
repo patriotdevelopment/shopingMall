@@ -18,6 +18,8 @@
         <module>youmeimall-pay</module>
         <module>youmeimall-auth</module>
         <module>youmeimall-api</module>
+        <module>youmeimall-web</module>
+        <module>youmeimall-weixin</module>
     </modules>
 
 

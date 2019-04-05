@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/youmeimall-web/youmeimallweb.iml" filepath="$PROJECT_DIR$/youmeimall-web/youmeimallweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/youmeimall-weixin/youmeimallweixin.iml" filepath="$PROJECT_DIR$/youmeimall-weixin/youmeimallweixin.iml" />
+    </modules>
+  </component>
+</project>
