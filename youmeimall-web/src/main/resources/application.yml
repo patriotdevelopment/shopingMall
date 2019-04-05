@@ -1,0 +1,31 @@
+server:
+  port: 9006
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:9000/eureka/
+spring:
+  application:
+    name: web
+  http:
+    encoding:
+      charset: UTF-8
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+    content-type: text/html
+    prefix: classpath:/templates/
+    suffix: .html
+  datasource:
+    name: member_datasource
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/shop_web
+    username: root
+    password: admin
+#wechat:
+  #mp:
+   # appId: wxd9ba7ed2c3d8f740
+    #secret: ab344e9631c922266add07380aacc63a
+    #token: majiaxueyuan
+    #aesKey: null
