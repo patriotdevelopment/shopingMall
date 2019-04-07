@@ -1,6 +1,6 @@
 spring:
   redis:
-    host: 127.0.0.1
+    host: 192.168.70.133
     password: 
     port: 6379
     pool:
@@ -9,7 +9,7 @@ spring:
       max-active: 1000
       max-wait: -1
   activemq:
-    broker-url: tcp://127.0.0.1:61616
+    broker-url: tcp://192.168.70.133:61616
     user: admin
     password: admin
     in-memory: true

@@ -28,7 +28,7 @@
         </dependency>
         <!-- 集成Common包 -->
         <dependency>
-            <artifactId>youmeimall</artifactId>
+            <artifactId>youmeimall-common</artifactId>
             <groupId>com.patriotdevelopment</groupId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
