@@ -13,9 +13,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://127.0.0.1:3306/shop_message
     username: root
-    password: admin
+    password: 123456
   activemq:
-    broker-url: tcp://127.0.0.1:61616
+    broker-url: tcp://192.168.70.133:61616
     user: admin
     password: admin
     in-memory: true
@@ -23,8 +23,8 @@ spring:
       enabled: false
   mail:
     host: smtp.163.com
-    username: liaoxiang521@163.com
-    password: lx592592
+    username: 15883788762@163.com
+    password: hjl5201314..
     default-encoding: UTF-8
     properties:
       mail:

@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 public class WebServer {
-	public static void main(String[] args) {
+	public static void main(String[] args)    {
 		SpringApplication.run(WebServer.class, args);
 	}
 }

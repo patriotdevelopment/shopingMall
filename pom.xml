@@ -91,6 +91,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
+
+
         <!-- 集成lombok 框架 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
